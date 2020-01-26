@@ -1,0 +1,3 @@
+import calculateBMI
+
+calculateBMI.CalculateBMI()
