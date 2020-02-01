@@ -153,7 +153,7 @@
       <workItem from="1580594076278" duration="366000" />
       <workItem from="1580594460021" duration="46000" />
       <workItem from="1580594774982" duration="124000" />
-      <workItem from="1580594932753" duration="5025000" />
+      <workItem from="1580594932753" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1580595224243</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580598861058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="separate prints, change m to cm">
+      <created>1580600085227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580600085227</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +206,8 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="separate controller" />
     <MESSAGE value="separate controller, main" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate controller, main" />
+    <MESSAGE value="separate prints, change m to cm" />
+    <option name="LAST_COMMIT_MESSAGE" value="separate prints, change m to cm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580597810550">
@@ -210,10 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580595847156" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1580598860543">
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2" timestamp="1580600084805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580598860543" />
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580600084805" />
     <state x="901" y="172" key="FileChooserDialogImpl" timestamp="1580594811847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

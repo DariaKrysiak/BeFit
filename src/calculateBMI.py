@@ -1,6 +1,6 @@
 class CalculateBMI:
     lowest_index = 18.5
-    highest_index = 24.9
+    highest_index = 25
 
     def calculateBMI(self, weight, height):
         return float(weight)/((float(height)/100)**2)
