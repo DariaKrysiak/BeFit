@@ -3,16 +3,8 @@ class CalculateBMI:
     highest_index = 24.9
 
     def calculateBMI(self, weight, height):
-        bmi = float(weight)/(float(height)**2)
-        if self.lowest_index < bmi < self.highest_index:
-            print("waga prawidłowa")
-        elif bmi <= self.lowest_index:
-            print("niedowaga")
-        else:
-            print("nadwaga")
+        return float(weight)/((float(height)/100)**2)
 
     def findCorrectWeigth(self, height):
-        highest_correct_weight = str(round(self.highest_index * (float(height)**2), 1))
-        lowest_correct_weight = str(round(self.lowest_index * (float(height)**2), 1))
-        print("Twoja waga powinna mieścić się w granicach od " + lowest_correct_weight + " kg do "
-              + highest_correct_weight + " kg.")
+        return str(round(self.highest_index * ((float(height)/100)**2), 1)), \
+               str(round(self.lowest_index * ((float(height)/100)**2), 1))
