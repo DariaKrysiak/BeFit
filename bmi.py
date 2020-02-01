@@ -1,3 +1,0 @@
-import calculateBMI
-
-calculateBMI.CalculateBMI()
