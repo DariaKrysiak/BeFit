@@ -1,4 +1,4 @@
-from src import calculateBMI
+from src import weightCalculator
 
 
 class Controller:
@@ -6,10 +6,10 @@ class Controller:
     def __init__(self):
         weight = self.getWeightFromUser()
         height = self.getHeightFromUser()
-        calculator = calculateBMI.CalculateBMI()
+        calculator = weightCalculator.WeightCalculator()
         bmi = calculator.calculateBMI(weight, height)
         self.printBodyWeightAssessment(calculator, bmi)
-        highest_correct_weight, lowest_correct_weight = calculator.findCorrectWeigth(height)
+        highest_correct_weight, lowest_correct_weight = calculator.calculateCorrectWeight(height)
         self.printCorrectWeight(height, highest_correct_weight, lowest_correct_weight)
 
     def getWeightFromUser(self):

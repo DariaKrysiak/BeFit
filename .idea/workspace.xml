@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="334c6daa-82e6-4ad6-abf1-0d203c76cfa5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculateBMI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculateBMI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculateBMI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightCalculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.py" afterDir="false" />
     </list>
     <list id="6ea11779-6edc-4b67-b545-a1c399e90b4e" name="Revert &quot;calculate BMI&quot;" comment="Revert &quot;calculate BMI&quot;&#10;&#10;This reverts commit c4371a99" />
@@ -153,7 +153,7 @@
       <workItem from="1580594076278" duration="366000" />
       <workItem from="1580594460021" duration="46000" />
       <workItem from="1580594774982" duration="124000" />
-      <workItem from="1580594932753" duration="5270000" />
+      <workItem from="1580594932753" duration="5950000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1580595224243</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580600085227</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change in index constants">
+      <created>1580600273234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580600273234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +214,8 @@
     <MESSAGE value="separate controller" />
     <MESSAGE value="separate controller, main" />
     <MESSAGE value="separate prints, change m to cm" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate prints, change m to cm" />
+    <MESSAGE value="change in index constants" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in index constants" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580597810550">
@@ -218,30 +226,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580595847156" />
-    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2" timestamp="1580600084805">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580600855273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580600084805" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1580600855273" />
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2" timestamp="1580601066614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580601066614" />
     <state x="901" y="172" key="FileChooserDialogImpl" timestamp="1580594811847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="901" y="172" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580594811847" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1580599974997">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1580600980631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580599974997" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1580599974997">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1580600980631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580599974997" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1580599974997">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1580600980631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580599974997" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1580599974997">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1580600980631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580599974997" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
     <state x="98" y="0" key="SettingsEditor" timestamp="1580595634054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -256,7 +268,7 @@
     <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1580599213330" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BeFit$main.coverage" NAME="main Coverage Results" MODIFIED="1580599965703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BeFit$main.coverage" NAME="main Coverage Results" MODIFIED="1580600975162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BeFit$controller.coverage" NAME="controller Coverage Results" MODIFIED="1580597830505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BeFit$bmi.coverage" NAME="bmi Coverage Results" MODIFIED="1580597794347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
