@@ -3,8 +3,15 @@ class WeightCalculator:
     highest_index = 25
 
     def calculateBMI(self, weight, height):
-        return float(weight)/((float(height)/100)**2)
+        weight = float(weight)
+        height = float(height)
+        if weight <= 0:
+            raise NameError("The weight should be higher than 0.")
+        if height <= 0:
+            raise NameError("The height should be higher than 0.")
+        return weight/((height/100)**2)
 
     def calculateCorrectWeight(self, height):
-        return str(round(self.highest_index * ((float(height)/100)**2), 1)), \
-               str(round(self.lowest_index * ((float(height)/100)**2), 1))
+        height = float(height)
+        return str(round(self.highest_index * ((height/100)**2), 1)), \
+               str(round(self.lowest_index * ((height/100)**2), 1))

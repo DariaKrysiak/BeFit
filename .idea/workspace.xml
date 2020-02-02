@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="334c6daa-82e6-4ad6-abf1-0d203c76cfa5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculateBMI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightCalculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightCalculator.py" afterDir="false" />
     </list>
     <list id="6ea11779-6edc-4b67-b545-a1c399e90b4e" name="Revert &quot;calculate BMI&quot;" comment="Revert &quot;calculate BMI&quot;&#10;&#10;This reverts commit c4371a99" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,80 +61,89 @@
       <recent name="D:\python_project\BeFit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="bmi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeHeight">
+    <configuration name="Unittests for testCalculateBMI.TestCalculateBMI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python_project\BeFit\src\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCalculateBMI.TestCalculateBMI&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeHeight" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controller.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeHeight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeWeight" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeWeight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeHeight" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeHeight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeWeight" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeWeight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.controller" />
-        <item itemvalue="Python.bmi" />
-        <item itemvalue="Python.bmi" />
-        <item itemvalue="Python.bmi" />
+        <item itemvalue="Python tests.Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeHeight" />
+        <item itemvalue="Python tests.Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeWeight" />
+        <item itemvalue="Python tests.Unittests for testCalculateBMI.TestCalculateBMI" />
+        <item itemvalue="Python tests.Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeHeight" />
+        <item itemvalue="Python tests.Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +161,7 @@
       <workItem from="1580594076278" duration="366000" />
       <workItem from="1580594460021" duration="46000" />
       <workItem from="1580594774982" duration="124000" />
-      <workItem from="1580594932753" duration="5950000" />
+      <workItem from="1580594932753" duration="9052000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1580595224243</created>
@@ -190,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580600273234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change CalculateBMI to WeightCalculator, findCorrectWeight to calculateCorrectWeight">
+      <created>1580601118246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580601118246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +230,8 @@
     <MESSAGE value="separate controller, main" />
     <MESSAGE value="separate prints, change m to cm" />
     <MESSAGE value="change in index constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in index constants" />
+    <MESSAGE value="change CalculateBMI to WeightCalculator, findCorrectWeight to calculateCorrectWeight" />
+    <option name="LAST_COMMIT_MESSAGE" value="change CalculateBMI to WeightCalculator, findCorrectWeight to calculateCorrectWeight" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580597810550">
@@ -230,30 +246,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1580600855273" />
-    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2" timestamp="1580601066614">
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2" timestamp="1580601117809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580601066614" />
+    <state x="189" y="0" width="1084" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580601117809" />
     <state x="901" y="172" key="FileChooserDialogImpl" timestamp="1580594811847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="901" y="172" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580594811847" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1580600980631">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1580604015035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1580600980631">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580604015035" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1580604015035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1580600980631">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580604015035" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1580604015035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1580600980631">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580604015035" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1580604015035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580600980631" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580604015035" />
     <state x="98" y="0" key="SettingsEditor" timestamp="1580595634054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -269,7 +285,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BeFit$main.coverage" NAME="main Coverage Results" MODIFIED="1580600975162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMICorrectValue.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMICorrectValue Coverage Results" MODIFIED="1580602328398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMINegativeWeight.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeWeight Coverage Results" MODIFIED="1580603043468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/BeFit$controller.coverage" NAME="controller Coverage Results" MODIFIED="1580597830505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMINegativeHeight.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMINegativeHeight Coverage Results" MODIFIED="1580603157183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/BeFit$bmi.coverage" NAME="bmi Coverage Results" MODIFIED="1580597794347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMIWrongTypeHeight.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeHeight Coverage Results" MODIFIED="1580603959381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMI.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMI Coverage Results" MODIFIED="1580601542406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI Coverage Results" MODIFIED="1580603605001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/BeFit$Unittests_for_testCalculateBMI_TestCalculateBMI_test_calculateBMIWrongTypeWeight.coverage" NAME="Unittests for testCalculateBMI.TestCalculateBMI.test_calculateBMIWrongTypeWeight Coverage Results" MODIFIED="1580603907586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
