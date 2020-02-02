@@ -13,19 +13,19 @@ class Controller:
         self.printCorrectWeight(height, highest_correct_weight, lowest_correct_weight)
 
     def getWeightFromUser(self):
-        return input("Podaj swoją wagę [w kg]: ").replace(',', '.')
+        return input("Enter your weight [in kg]: ").replace(',', '.')
 
     def getHeightFromUser(self):
-        return input("Podaj swój wzrost [w cm]: ").replace(',', '.')
+        return input("Enter your height [in cm]: ").replace(',', '.')
 
     def printBodyWeightAssessment(self, calculator, bmi):
         if calculator.lowest_index <= bmi < calculator.highest_index:
-            print("waga prawidłowa")
+            print("Normal weight")
         elif bmi < calculator.lowest_index:
-            print("niedowaga")
+            print("Underweight")
         else:
-            print("nadwaga")
+            print("Overweight")
 
     def printCorrectWeight(self, height, highest_correct_weight, lowest_correct_weight):
-        print("Dla podanego wzrostu (" + height + " cm) prawidłowa waga wynosi pomiędzy: " + str(lowest_correct_weight)
-              + " a " + str(highest_correct_weight) + " kg.")
+        print("Healthy weight for your height (" + height + " cm) should be between: " + str(lowest_correct_weight)
+              + " and " + str(highest_correct_weight) + " kgs.")
