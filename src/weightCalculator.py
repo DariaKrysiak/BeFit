@@ -13,5 +13,6 @@ class WeightCalculator:
 
     def calculateCorrectWeight(self, height):
         height = float(height)
-        return str(round(self.highest_index * ((height/100)**2), 1)), \
-               str(round(self.lowest_index * ((height/100)**2), 1))
+        if height <= 0:
+            raise NameError("The height should be higher than 0.")
+        return round(self.highest_index * ((height/100)**2), 1), round(self.lowest_index * ((height/100)**2), 1)

@@ -27,5 +27,5 @@ class Controller:
             print("nadwaga")
 
     def printCorrectWeight(self, height, highest_correct_weight, lowest_correct_weight):
-        print("Dla podanego wzrostu (" + height + " cm) prawidłowa waga wynosi pomiędzy: " + lowest_correct_weight
-              + " a " + highest_correct_weight + " kg.")
+        print("Dla podanego wzrostu (" + height + " cm) prawidłowa waga wynosi pomiędzy: " + str(lowest_correct_weight)
+              + " a " + str(highest_correct_weight) + " kg.")
