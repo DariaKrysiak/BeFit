@@ -50,7 +50,7 @@ class TestWeightCalculator(unittest.TestCase):
 
     def test_calculateCorrectWeightCorrectValue(self):
         highest_correct_test_weight, lowest_correct_test_weight = self.calculateCorrectTestWeight()
-        self.assertEqual(highest_correct_test_weight, 60.1)
+        self.assertEqual(highest_correct_test_weight, 59.8)
         self.assertEqual(lowest_correct_test_weight, 44.4)
 
     def test_calculateCorrectWeightNegativeHeight(self):

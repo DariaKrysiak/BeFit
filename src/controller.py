@@ -19,7 +19,7 @@ class Controller:
         return input("Enter your height [in cm]: ").replace(',', '.')
 
     def printBodyWeightAssessment(self, calculator, bmi):
-        if calculator.lowest_index <= bmi < calculator.highest_index:
+        if calculator.lowest_index <= bmi <= calculator.highest_index:
             print("Normal weight")
         elif bmi < calculator.lowest_index:
             print("Underweight")

@@ -1,6 +1,6 @@
 class WeightCalculator:
     lowest_index = 18.5
-    highest_index = 25
+    highest_index = 24.9
 
     def calculateBMI(self, weight, height):
         weight = float(weight)
