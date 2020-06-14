@@ -1,6 +1,6 @@
 # BeFit
 [UNDER DEVELOPMENT]\
-It is an application for people, who would like to be health, reduce or increase the weight.
+It is an application for people, who would like to be healthy, reduce or increase the weight.
 
 ## Task list
 - [x] calculate BMI
